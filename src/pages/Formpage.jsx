@@ -33,8 +33,16 @@ const Formpage = () => {
       {pop ? (
         <div className="mt-10 text-center text-xl font-semibold bg-white/30 backdrop-blur-lg p-6 rounded-2xl border border-white/50 shadow-xl">
           <h1>
-            Free ga 200/- osthayi antey ela nammavu ra erripuku  <br />
-            <span className="text-blue-700 font-bold">{formData.username}</span>😄
+            Free ga 200/- osthayi antey
+            <br /> nammesthavara  
+            <span className="text-blue-700 font-bold">  {formData.username} 😄
+                </span> saduvko , saduvkoni kastapadi sampadinchu ra erri🌼
+
+                <br />
+                <p className='mt-4'>
+                  ఇట్లు మీ శ్రేయోభిలాషి
+                </p>
+                <p className='ml-50'><span className='text-4xl font-bold text-red-800'> ~MK</span></p>
           </h1>
           <button
             className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-xl"
